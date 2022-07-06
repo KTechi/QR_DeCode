@@ -2,3 +2,12 @@
 
 Here is the [link](https://kteruuchi.github.io/QR_DeCode/).
 
+## Command
+| Command | About |
+|:--------|:------|
+| clear | clear all log |
+| hide log | change visibility to 'hidden' |
+| show log | change visibility to 'visible' |
+| scale `number` | change the image size. |
+| fit | fit the image |
+| filter `int` | show the step by step result |
