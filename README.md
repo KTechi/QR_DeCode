@@ -2,6 +2,8 @@
 
 Here is the [link](https://kteruuchi.github.io/QR_DeCode/).
 
+___Drag & Drop image___
+
 ## Command
 | Command | About |
 |:--------|:------|
