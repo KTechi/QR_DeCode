@@ -6,7 +6,7 @@ ___Drag & Drop image___
 
 ## Command
 | Command | Description |
-|:--------|-------------|
+|---------|-------------|
 | clear | clear all log |
 | hide log | change visibility to 'hidden' |
 | show log | change visibility to 'visible' |
