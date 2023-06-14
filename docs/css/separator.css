@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* ================ Separator ================ */
+.separator {
+    flex: 0 0 10px;
+    display: grid;
+    place-items: center;
+    background-color: #222;
+}
+.separator::before {
+    content: "";
+    border-radius: 1000px;
+    background-color: #666;
+}
+.horizontal-separator {
+    cursor: ns-resize;
+}
+.vertical-separator {
+    cursor: ew-resize;
+}
+.horizontal-separator::before {
+    width:  30px;
+    height:  4px;
+}
+.vertical-separator::before {
+    width:   4px;
+    height: 30px;
+}
+
+/* ================ Container ================ */
+.horizontal-container {
+    width:  100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.vertical-container {
+    width:  100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}

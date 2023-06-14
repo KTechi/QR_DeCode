@@ -3,26 +3,39 @@
   <head>
     <meta charset="UTF-8">
     <title>QR_DeCode</title>
+    <!-- ================ Meta ================ -->
     <meta name="author" content="Anonymous">
     <meta name="description" content="Under Construction">
     <meta name="keywords" content="">
-    <meta name="icon" content="C.ico">
-    <meta name="icon" type="image/png" content="C.png">
-    <!-- Google Font >>>>>>>>>>>>>>>> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="icon/C.ico">
+    <link rel="icon" href="icon/C.png" type="image/png">
+    <!-- ================ Google Font ================ -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap">
-    <!-- <<<<<<<<<<<<<<<< Google Font -->
-    <link rel="stylesheet" href="style.css">
-    <script src="class.js"></script>
-    <script src="math.js"></script>
-    <script src="data.js"></script>
-    <script src="command.js"></script>
-    <script src="eventListener.js"></script>
-    <script src="main.js"></script>
+    <!-- ================ CSS ================ -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/separator.css">
+    <!-- ================ JS ================ -->
+    <script src="js/class.js"></script>
+    <script src="js/function.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/separator.js"></script>
+    <script src="js/event_listener.js"></script>
+    <script src="js/main.js"></script>
   </head>
   <body>
-    <div id="log-container"></div>
-    <form></form>
+    <div class="horizontal-container">
+      <div class="vertical-container">
+        <div id="canvas-container">
+          <canvas id="canvas"></canvas>
+        </div>
+        <div id="textbox-container">
+          <textarea id="textbox" placeholder="Input"></textarea>
+        </div>
+      </div>
+      <div id="property-container"></div>
+    </div>
   </body>
 </html>
