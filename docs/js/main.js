@@ -208,7 +208,7 @@ function paint(image) {
         ec_level.innerText = qr_decode.ECL
         mask    .innerText = qr_decode.MP
         mode    .innerText = qr_decode.MODE
-        document.getElementById('textbox').innerText = qr_decode.text
+        document.getElementById('textbox').innerHTML = qr_decode.text
     } else
         error_message.innerText = qr_decode.error_message
 
