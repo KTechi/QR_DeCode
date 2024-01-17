@@ -91,8 +91,8 @@ function paint(image) {
             const _4 = line[i-1]
             const _5 = line[i-0]
             const avg = (_1 +_2 +_3 +_4 +_5) / 7
-            const avg_L =  .9 * avg
-            const avg_H = 1.1 * avg
+            const avg_L =  .8 * avg
+            const avg_H = 1.2 * avg
             dx = _1
             if (_1 < avg_L || avg_H < _1) continue
             if (_2 < avg_L || avg_H < _2) continue
@@ -122,8 +122,8 @@ function paint(image) {
             const _4 = line[i-1]
             const _5 = line[i-0]
             const avg = (_1 +_2 +_3 +_4 +_5) / 7
-            const avg_L =  .9 * avg
-            const avg_H = 1.1 * avg
+            const avg_L =  .8 * avg
+            const avg_H = 1.2 * avg
             dy = _1
             if (_1 < avg_L || avg_H < _1) continue
             if (_2 < avg_L || avg_H < _2) continue
